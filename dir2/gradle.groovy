@@ -1,4 +1,6 @@
 void call()
 {
-    println("gradle build success")
+    stage('build gradle') {
+        println("gradle build success")
+    }
 }
