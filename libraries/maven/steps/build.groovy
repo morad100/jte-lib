@@ -1,7 +1,7 @@
 void call()
 {
-    stage('build build') {
-        println("build build success")
+    stage('build maven') {
+        println("build maven success")
 
     }
 }
